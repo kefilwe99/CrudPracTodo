@@ -1,0 +1,6 @@
+### TEST END POINT ###
+
+@SERVER = http://localhost:8080
+
+### Get all grocery list
+GET {{SERVER}}
