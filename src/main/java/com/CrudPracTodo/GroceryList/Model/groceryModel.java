@@ -10,8 +10,8 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 @Component
 public class groceryModel {
-    private int id;
+    private int taskId;
     private String task;
-    private String isComplete;
+    private boolean isComplete;
 }
 
