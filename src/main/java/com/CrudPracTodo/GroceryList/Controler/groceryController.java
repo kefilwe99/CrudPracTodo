@@ -1,17 +1,22 @@
-package com.CrudPracTodo.GroceryList.Controler;
-import com.CrudPracTodo.GroceryList.Model.groceryModel;
-import com.CrudPracTodo.GroceryList.Service.groceryService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-@RestController
-public class groceryController {
-
-
-
-    @GetMapping("/")
-public String getGroceryList(){
-    return "Get Grocery List";
-}
-
-}
+//package com.CrudPracTodo.GroceryList.Controler;
+//import com.CrudPracTodo.GroceryList.Model.groceryModel;
+//import com.CrudPracTodo.GroceryList.Service.groceryService;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.web.bind.annotation.GetMapping;
+//import org.springframework.web.bind.annotation.RestController;
+//
+//import java.util.List;
+//
+//
+//@RestController
+//public class groceryController impliments groceryInterface {
+//
+//    @Autowired
+//    private groceryService groceryService;
+//
+//    @GetMapping("/")
+//    public List<groceryModel> getAll() {
+//        return groceryService.geAll();
+//
+//    }
+//}
