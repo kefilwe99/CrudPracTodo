@@ -23,9 +23,10 @@ public class GroceryListRepository implements groceryInterface {
     }
 
     @Override
-    public List<groceryModel> onRead() {
+    public List<groceryModel> getAllGrocery() {
         return List.of();
     }
+
 
     @Override
     public void addTask(groceryModel groceryModel) {
@@ -38,7 +39,7 @@ public class GroceryListRepository implements groceryInterface {
     }
 
     @Override
-    public void updateTask(int id, String task, boolean isCompele) {
+    public void updateTask(int id, String task, boolean isComplete) {
 
     }
 }
