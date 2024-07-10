@@ -8,10 +8,10 @@ import java.util.List;
 
 @Component
 public interface groceryInterface {
-    public List<groceryModel> onRead();
+    public List<groceryModel> getAllGrocery();
     public void addTask (groceryModel groceryModel);
     public void deleteTask (int id);
-    public void updateTask (int id, String task, boolean isCompele);
+    public void updateTask (int id, String task, boolean isComplete);
 
     }
 
