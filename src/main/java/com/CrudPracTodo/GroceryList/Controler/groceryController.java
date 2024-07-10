@@ -1,3 +1,4 @@
+
 package com.CrudPracTodo.GroceryList.Controler;
 import com.CrudPracTodo.GroceryList.Model.groceryModel;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,3 +31,5 @@ public class groceryController implements groceryInterface {
 
     }
 }
+
+
