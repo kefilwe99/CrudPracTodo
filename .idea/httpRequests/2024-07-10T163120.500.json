@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-07-10T14:31:20.048+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/groceryDelete/13"
+}

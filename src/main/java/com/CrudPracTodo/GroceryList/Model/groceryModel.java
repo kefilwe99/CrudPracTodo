@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 @Component
 public class groceryModel {
-    private int id;
+    private int taskID;
     private String task;
     private String isComplete;
 }

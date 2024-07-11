@@ -4,3 +4,7 @@
 
 ### Get all grocery list
 GET {{SERVER}}
+
+### Delete
+DELETE {{SERVER}}/groceryDelete/13
+
